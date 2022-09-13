@@ -1,0 +1,64 @@
+:root{
+ --gradient : linear-gradient(to right, #9572FC,#43E7AD,#E2D45C);
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+
+  color: white;
+
+  background-image: url("Fundo.jpg");
+  background-repeat: no-repeat;
+  background-color:  #121214 ;
+}
+
+header img{
+  width: 120px;
+  height: 120px;  
+  border-radius:60px ;
+  padding: 4px;
+  background: var(--gradient);
+}
+
+section{
+  background: var(--gradient);
+  margin-top: 4px;
+  padding-top: 4px;
+  border-radius: 8px;
+  margin:20px;
+}
+
+.card{
+ 
+  width: 580px;
+  height: 264px;
+  
+  background: #2A2634;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 15px 32px 32px ;
+
+  
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+ul img{
+  width: 90px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.channel-list  img{
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+}
